@@ -29,7 +29,7 @@ if exist "C:\Program Files (x86)\Dev-Cpp" (
     EXIT /B %ERRORLEVEL%
 ) else (
     if exist "C:\Program Files (x86)\Embarcadero" (
-        set "PREFIX=C:\Program Files (x86)\Embarcadero\Dev-Cpp\TDM-GCC-64"
+        set "PREFIX=C:\Program Files (x86)\Embarcadero\Dev-Cpp\TDM-GCC-64\x86_64-w64-mingw32"
         CALL :INSTALLATION "!PREFIX!"
         EXIT /B %ERRORLEVEL%
     ) else (
